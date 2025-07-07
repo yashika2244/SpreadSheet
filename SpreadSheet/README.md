@@ -1,69 +1,53 @@
-# React + TypeScript + Vite
+# 📊 React Spreadsheet UI — Internship Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a front-end-only React + TypeScript + Tailwind CSS project that replicates a spreadsheet-like interface based on the provided Figma design.
 
-Currently, two official plugins are available:
+> ✅ Built as part of a React Internship Assignment  
+> ✅ Pixel-perfect UI  
+> ✅ React Table grid  
+> ✅ Tailwind styling  
+> ✅ Console-based interactivity
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ React 18 (Vite)
+- 🧠 TypeScript (strict mode)
+- 🎨 Tailwind CSS
+- 📋 react-table for spreadsheet grid
+- ✅ ESLint + Prettier + Type-check configured
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📸 UI Preview
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Screenshot](./preview.png)  
+*(Add a screenshot or paste a Figma preview if needed)*
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Live Demo
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🔗 [Live Project URL](https://your-vercel-app-url.vercel.app)  
+🔗 [GitHub Repo](https://github.com/your-username/your-repo-name)
+
+---
+
+## 🧪 Features
+
+- Pixel-perfect layout as per Figma
+- Spreadsheet-like interface using `react-table`
+- Functional tabs and buttons with console logging
+- Fully responsive, clean UI
+- Code passes `npm run lint` and `npm run type-check`
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/your-repo-name
+cd your-repo-name
+npm install
+npm run dev
