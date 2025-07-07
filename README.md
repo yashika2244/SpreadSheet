@@ -29,8 +29,8 @@ This is a front-end-only React + TypeScript + Tailwind CSS project that replicat
 
 ## 🚀 Live Demo
 
-🔗 [Live Project URL](https://your-vercel-app-url.vercel.app)  
-🔗 [GitHub Repo](https://github.com/your-username/your-repo-name)
+🔗 [Live Project URL](https://spread-sheet-blond.vercel.app/)  
+🔗 [GitHub Repo](https://github.com/yashika2244/SpreadSheet)
 
 ---
 
@@ -47,7 +47,7 @@ This is a front-end-only React + TypeScript + Tailwind CSS project that replicat
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/your-repo-name
+git clone https://github.com/yashika2244/SpreadSheet.git
 cd your-repo-name
 npm install
 npm run dev
