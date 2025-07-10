@@ -1,22 +1,20 @@
 
-
-import { useState } from "react";
-import Tabs from "../components/Tabs";
-import Toolbar from "../components/Toolbar";
+import Header from "../components/Header";
+import SheetTitleBar from "../components/SheetTitleBar";
 import SpreadsheetTable from "../components/SpreadSheetTable";
+import Toolbar from "../components/Toolbar";
 
-function Layout() {
-  const [activeTab, setActiveTab] = useState("All");
-
+const Layout = () => {
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-900 px-2 py-4 sm:px-4 md:px-6">
-      <div className="max-w-7xl mx-auto bg-white rounded-xl shadow-md p-4 sm:p-6 space-y-4 sm:space-y-6">
-        <Tabs active={activeTab} onTabChange={setActiveTab} />
-        <Toolbar />
-        <SpreadsheetTable />
+    <div className="bg-gray-50 text-gray-900 min-h-screen flex flex-col font-sans">
+      <Header />
+      <Toolbar />
+      <div className="flex-grow overflow-auto">
+        <SheetTitleBar/>
+        <SpreadsheetTable/>
       </div>
     </div>
   );
-}
+};
 
 export default Layout;
