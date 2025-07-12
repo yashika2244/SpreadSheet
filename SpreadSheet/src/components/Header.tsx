@@ -1,4 +1,3 @@
-
 import { Bell } from "lucide-react";
 import { CiSearch } from "react-icons/ci";
 const Header = () => {
